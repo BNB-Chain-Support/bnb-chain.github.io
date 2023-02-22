@@ -197,8 +197,6 @@ Run screen then press enter, anytime you lose connection via ssh, run screen -r 
   
   * Enable snapshot, snapshot is another format of state world, it is designed to improve the performance. You can always set it to true.
   
-  * Upgrade to 1.1.5 and diffsync is enabled
-  
   * Try to reduce amount of peers to 30-50 (more peers need more resources) and make sure you're connected to enough peers with net.peerCount
   
   * Upgrade your hardware, especially Disk and CPU resources.

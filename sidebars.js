@@ -60,7 +60,7 @@ const sidebars = {
                         type: 'category',
                         collapsed: true,
                         label: 'Running Fullnode',
-                        items: ['validator/fullnode', 'archivenode', 'validator/best-practice', 'validator/node-maintenance', 'validator/upgrade-fullnode', 'validator/docker']
+                        items: ['validator/fullnode', 'archivenode', 'validator/docker', 'validator/best-practice']
                       },
                       {
                         type: 'category',

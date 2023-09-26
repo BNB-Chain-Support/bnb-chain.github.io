@@ -16,7 +16,16 @@ const config = {
   projectName: 'bnb-chain.github.io', 
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-  
+  clientModules: [
+    require.resolve('./embedValue.js'),
+  ],
+  scripts: [
+    {
+      src: 'https://ai.web3go.xyz/embed.js',
+      defer: true,
+    },
+  ],
+
   plugins: [
              require.resolve("docusaurus-plugin-image-zoom"),
               

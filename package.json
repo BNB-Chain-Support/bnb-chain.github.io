@@ -32,6 +32,11 @@
     "react-icons": "^4.3.1",
     "url-loader": "^4.1.1"
   },
+  "alias": {
+    "process": {
+      "global": "{}"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.5%",
